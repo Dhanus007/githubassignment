@@ -1,0 +1,28 @@
+Bug Title: Incorrect Calculation of Total Expenses in Budgeting App
+
+Bug Description:
+In the budgeting app, when users input expenses for various categories, the total expenses calculated by the system are incorrect. It seems that the calculation is not accounting for some of the expenses entered by the user, resulting in an inaccurate total.
+
+Steps to Reproduce:
+
+Open the budgeting app.
+Navigate to the "Expenses" section.
+Add expenses for different categories such as groceries, utilities, rent, etc.
+Verify the total expenses displayed by the app.
+Expected Behavior:
+The total expenses displayed by the app should accurately reflect the sum of all expenses entered by the user for the specified time period and categories.
+
+Actual Behavior:
+The total expenses displayed are consistently lower than the actual sum of expenses entered by the user. It appears that some expenses are not being included in the calculation.
+
+Additional Information:
+
+This issue occurs consistently across different user accounts and devices.
+The problem seems to be related to how expenses are being processed and aggregated by the system.
+Users have reported discrepancies between the total expenses displayed by the app and their manual calculations.
+There are no error messages or warnings indicating any issues with the expense input process.
+Impact:
+This bug undermines the reliability and accuracy of the budgeting app, as users rely on the total expenses figure to make informed financial decisions. Inaccurate calculations could lead to budgeting errors and financial mismanagement.
+
+Priority:
+This bug should be assigned a high priority as it directly impacts the core functionality of the app and affects user experience and trust.
